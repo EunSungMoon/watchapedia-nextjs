@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "박스오피스 순위",
+    "movie_list": [
+      {
+        "movieId": "1",
+        "imageUrl": "이미지",
+        "title": "미니언즈2",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2021",
+        "country": "미국"
+      },
+      {
+        "movieId": "2",
+        "imageUrl": "이미지",
+        "title": "외계+인 1부",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2022",
+        "country": "한국"
+      },
+      {
+        "movieId": "3",
+        "imageUrl": "이미지",
+        "title": "탑건: 매버릭",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2022",
+        "country": "미국"
+      },
+      {
+        "movieId": "4",
+        "imageUrl": "이미지",
+        "title": "한산 : 용의 출현",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2021",
+        "country": "한국"
+      },
+      {
+        "movieId": "5",
+        "imageUrl": "이미지",
+        "title": "헤어질 결심",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2021",
+        "country": "한국"
+      },
+      {
+        "movieId": "6",
+        "imageUrl": "이미지",
+        "title": "헤어질 결심",
+        "category": "박스오피스 순위",
+        "rate": "",
+        "date": "2021",
+        "country": "한국"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "왓챠 Top 10 영화",
+    "movie_list": [
+      {
+        "movieId": "1",
+        "imageUrl": "이미지",
+        "title": "탑건",
+        "category": "왓챠 Top 10 영화",
+        "rate": "3.8",
+        "date": "1986",
+        "country": "미국"
+      },
+      {
+        "movieId": "2",
+        "imageUrl": "이미지",
+        "title": "해리포터와 마법사의 돌",
+        "category": "왓챠 Top 10 영화",
+        "rate": "4.3",
+        "date": "2001",
+        "country": "영국"
+      },
+      {
+        "movieId": "3",
+        "imageUrl": "이미지",
+        "title": "범죄도시",
+        "category": "왓챠 Top 10 영화",
+        "rate": "4.0",
+        "date": "2017",
+        "country": "한국"
+      },
+      {
+        "movieId": "4",
+        "imageUrl": "이미지",
+        "title": "해리포터와 비밀의 방",
+        "category": "왓챠 Top 10 영화",
+        "rate": "4.1",
+        "date": "2002",
+        "country": "영국"
+      },
+      {
+        "movieId": "5",
+        "imageUrl": "이미지",
+        "title": "슈퍼 리그 : 축구의 종말",
+        "category": "왓챠 Top 10 영화",
+        "rate": "4.1",
+        "date": "2022",
+        "country": "영국"
+      },
+      {
+        "movieId": "6",
+        "imageUrl": "이미지",
+        "title": "슈퍼 리그 : 축구의 종말",
+        "category": "왓챠 Top 10 영화",
+        "rate": "4.1",
+        "date": "2022",
+        "country": "영국"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "넷플릭스",
+    "movie_list": [
+      {
+        "movieId": "1",
+        "imageUrl": "이미지",
+        "title": "씨 비스트",
+        "category": "넷플릭스",
+        "rate": "3.2",
+        "date": "2022",
+        "country": "미국"
+      },
+      {
+        "movieId": "2",
+        "imageUrl": "이미지",
+        "title": "킬링 카인드 : 킬러싀 수제자",
+        "category": "넷플릭스",
+        "rate": "2.4",
+        "date": "2021",
+        "country": "미국"
+      },
+      {
+        "movieId": "3",
+        "imageUrl": "이미지",
+        "title": "이상한 나라의 수학자",
+        "category": "넷플릭스",
+        "rate": "2.8",
+        "date": "2020",
+        "country": "한국"
+      },
+      {
+        "movieId": "4",
+        "imageUrl": "이미지",
+        "title": "씽2게더",
+        "category": "넷플릭스",
+        "rate": "3.7",
+        "date": "2021",
+        "country": "미국"
+      },
+      {
+        "movieId": "5",
+        "imageUrl": "이미지",
+        "title": "원샷",
+        "category": "넷플릭스",
+        "rate": "2.9",
+        "date": "2021",
+        "country": "영국"
+      },
+      {
+        "movieId": "6",
+        "imageUrl": "이미지",
+        "title": "원샷",
+        "category": "넷플릭스",
+        "rate": "2.9",
+        "date": "2021",
+        "country": "영국"
+      }
+    ]
+  }
+]
