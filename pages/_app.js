@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Top />
       <Divider />
+      <Component {...pageProps} />
     </>
   );
 }

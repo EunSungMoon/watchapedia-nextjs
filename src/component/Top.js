@@ -58,5 +58,5 @@ const Header__li = styled.li`
 const Header__a= styled.a`
   text-decoration:none;
   color:${Color.darkGray};
-  cursor:default
+  cursor:default;
 `
