@@ -1,30 +1,39 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+
+export async function getServerSideProps() {
+  const res = await axios.get("http://localhost:3030/api/movies");
+  const data = res.data;
+  return {
+    props: {
+      initialData: {
+        data,
+      },
+    },
+  };
+}
 
 const Page = ({ initialData }) => {
-  const [movies, setMovies] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState();
+  let router = useRouter();
 
-  const findMovies = async () => {
-    try {
-      setIsLoading(true);
-      const fetchRes = await axios.get(`/api/movies`, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      console.log(fetchRes.data);
-    } catch (err) {
-      setError(err);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    findMovies();
-  }, []);
+  const [movies, setMovies] = useState(initialData.data.items);
+  return (
+    <>
+      {movies.map(movie => (
+        <>
+          <div key={movie.categories}>{movie.categories}</div>
+          <div>
+            {movie.movie_list.map((i) => (
+              <div key={i.title} onClick={() => router.push(`/movie/${i.movieId}`)}>
+                {i.title}/ {i.movieId}
+              </div>
+            ))}
+          </div>
+        </>
+      ))}
+    </>
+  );
 };
 
 export default Page;

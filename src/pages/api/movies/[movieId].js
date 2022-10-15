@@ -1,12 +1,12 @@
 import { faker } from '@faker-js/faker';
 
 export default function handler(req, res) {
-  const { pk } = req.query;
+  const { movieId } = req.query;
   switch (req.method) {
     case 'GET':
       return res.status(200).json({
-        data: {
-          id: pk,
+        item: {
+          movieId: movieId,
           title: faker.commerce.productName(),
           country: faker.address.country(),
           description: faker.commerce.productDescription(),

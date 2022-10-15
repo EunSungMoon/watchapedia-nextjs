@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 import { useState } from "react";
 
-export default function useMovie() {
+export default function useMovie(initialData = {}) {
   const [isLoading, setIsLoading] = useState(false);
   const [movies, setMovies] = useState([]);
   const [movie, setMovie] = useState();
@@ -9,9 +9,9 @@ export default function useMovie() {
   const findMovies = async (option = {}) => {
     try {
       setIsLoading(true);
-      const fetchRes = await axios.get('/api/movies')
-      console.log(fetchRes.data)
-      // setMovies(fetchRes);
+      const fetchRes = await axios.get("/api/movies");
+      console.log(fetchRes.data);
+      setMovies(fetchRes.data);
     } catch (err) {
       throw err;
     } finally {

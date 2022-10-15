@@ -4,13 +4,13 @@ export default function handler(req, res) {
   switch (req.method) {
     case 'GET':
       return res.status(200).json({
-        data: [
+        items: [
           {
             id: faker.datatype.uuid(),
             categories: '박스오피스 순위',
             movie_list: [
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -18,7 +18,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -26,7 +26,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -34,7 +34,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -42,7 +42,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -50,7 +50,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -58,7 +58,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -72,7 +72,7 @@ export default function handler(req, res) {
             categories: '왓챠 Top 10 영화',
             movie_list: [
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -80,7 +80,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -88,7 +88,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -96,7 +96,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -104,7 +104,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -112,7 +112,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -120,7 +120,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -134,7 +134,7 @@ export default function handler(req, res) {
             categories: '넷플릭스',
             movie_list: [
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -142,7 +142,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -150,7 +150,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -158,7 +158,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -166,7 +166,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -174,7 +174,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
@@ -182,7 +182,7 @@ export default function handler(req, res) {
                 country: faker.address.country(),
               },
               {
-                moviId: faker.datatype.uuid(),
+                movieId: faker.datatype.uuid(),
                 category: faker.commerce.productMaterial(),
                 title: faker.commerce.productName(),
                 rate: faker.datatype.number({ min: 0, max: 10, precision: 0.1 }),
